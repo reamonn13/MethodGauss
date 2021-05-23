@@ -1,0 +1,9 @@
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\UnitTestGauss\obj\Debug\UnitTestGauss.csprojResolveAssemblyReference.cache
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\UnitTestGauss\bin\Debug\UnitTestGauss.dll
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\UnitTestGauss\bin\Debug\UnitTestGauss.pdb
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\UnitTestGauss\bin\Debug\lab1_SLAU_MethodGauss.exe
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\UnitTestGauss\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\UnitTestGauss\bin\Debug\lab1_SLAU_MethodGauss.pdb
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\UnitTestGauss\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\UnitTestGauss\obj\Debug\UnitTestGauss.dll
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\UnitTestGauss\obj\Debug\UnitTestGauss.pdb
