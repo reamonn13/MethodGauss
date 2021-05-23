@@ -1,0 +1,24 @@
+C:\Users\scouser\ThirdCourse\TheoryOfGames\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe.config
+C:\Users\scouser\ThirdCourse\TheoryOfGames\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe
+C:\Users\scouser\ThirdCourse\TheoryOfGames\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.pdb
+C:\Users\scouser\ThirdCourse\TheoryOfGames\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.csprojResolveAssemblyReference.cache
+C:\Users\scouser\ThirdCourse\TheoryOfGames\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.exe
+C:\Users\scouser\ThirdCourse\TheoryOfGames\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.pdb
+C:\Users\scouser\ThirdCourse\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe.config
+C:\Users\scouser\ThirdCourse\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.exe
+C:\Users\scouser\ThirdCourse\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.pdb
+C:\Users\scouser\ThirdCourse\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe
+C:\Users\scouser\ThirdCourse\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.pdb
+C:\Users\scouser\ThirdCourse\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.csprojResolveAssemblyReference.cache
+D:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe.config
+D:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.exe
+D:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.pdb
+D:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe
+D:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.pdb
+D:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.csprojResolveAssemblyReference.cache
+E:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe.config
+E:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.exe
+E:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.pdb
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe.config
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.exe
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.pdb
