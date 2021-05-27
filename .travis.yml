@@ -1,6 +1,15 @@
-language: csharp
-mono:
-  - latest
-  - 3.12.0
-  - 3.10.0
-solution: lab1_SLAU_MethodGauss.sln
+{
+  "language": "csharp",
+  "os": [
+    "linux"
+  ],
+  "dist": "xenial",
+  "mono": [
+    "latest",
+    "3.12.0",
+    "3.10.0"
+  ],
+  "solution": [
+    "lab1_SLAU_MethodGauss.sln"
+  ]
+}
