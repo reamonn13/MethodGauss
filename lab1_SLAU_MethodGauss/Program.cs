@@ -1,12 +1,6 @@
 ﻿using System;
 using System.Linq;
 using System.IO;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace lab1_SLAU_MethodGauss
 {
@@ -21,10 +15,6 @@ namespace lab1_SLAU_MethodGauss
                 string[] readfile = File.ReadAllLines(path);  //чтение матрицы А из файла
                 string[] str = null;
                 int N = Convert.ToInt32(readfile[0]);
-                double[,] testA = new double[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } };
-                double[] testB = new double[3] { 1, 2, 3 };
-                double[,] testE = new double[3, 3] { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } };
-                MaxOfColumn(N, testA, testB, testE, 0, 0);
                 double[,] A = new double[N, N];
                 double[,] E = new double[N, N];
                 double[] B = new double[N];

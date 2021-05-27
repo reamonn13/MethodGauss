@@ -1,9 +1,7 @@
 ﻿using System;
 using lab1_SLAU_MethodGauss;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using System.Collections.Generic;
 using System.IO;
-using System.ComponentModel;
 using System.Linq;
 
 namespace UnitTestGauss
