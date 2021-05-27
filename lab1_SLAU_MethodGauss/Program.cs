@@ -1,26 +1,30 @@
 ﻿using System;
+using System.Linq;
+using System.IO;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.IO;
 
 namespace lab1_SLAU_MethodGauss
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             ConsoleKey key = Console.ReadKey().Key;
             do{
                 
-                string path = @"D:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\a.dat";
+                string path = @"D:\Dlya kursovoj\lab1_SLAU_MethodGauss\a4.dat";
                 string[] readfile = File.ReadAllLines(path);  //чтение матрицы А из файла
                 string[] str = null;
                 int N = Convert.ToInt32(readfile[0]);
+                double[,] testA = new double[3, 3] { { 0, 1, 2 }, { 3, 4, 5 }, { 6, 7, 8 } };
+                double[] testB = new double[3] { 1, 2, 3 };
+                double[,] testE = new double[3, 3] { { 1, 0, 0 }, { 0, 1, 0 }, { 0, 0, 1 } };
+                MaxOfColumn(N, testA, testB, testE, 0, 0);
                 double[,] A = new double[N, N];
                 double[,] E = new double[N, N];
                 double[] B = new double[N];
@@ -36,7 +40,7 @@ namespace lab1_SLAU_MethodGauss
                     }
                 }
 
-                path = @"D:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\b4.dat";
+                path = @"D:\Dlya kursovoj\lab1_SLAU_MethodGauss\b.dat";
                 readfile = File.ReadAllLines(path);  //чтение матрицы B из файла
                 str = readfile[0].Split(' ');
                 for (int i = 0; i < N; i++)
@@ -85,7 +89,17 @@ namespace lab1_SLAU_MethodGauss
             return;
         }
 
-        static void PrintSystem(int N, double[,] A, double[] B)
+        public void ReadFromFile(string path, double[,] A, double[] B)
+        {
+
+        }
+
+        //public double MakeTriangleWithME(object n, object a, object b, object x, object r, object e)
+        //{
+        //    throw new NotImplementedException();
+        //}
+
+        public static void PrintSystem(int N, double[,] A, double[] B)
         {
             for (int i = 0; i < N; i++)
             {
@@ -111,7 +125,7 @@ namespace lab1_SLAU_MethodGauss
             }
         }
 
-        static void PrintMatrix(int N, double[,] E)
+        public static void PrintMatrix(int N, double[,] E)
         {
             for (int i = 0; i < N; i++)
             {
@@ -125,7 +139,7 @@ namespace lab1_SLAU_MethodGauss
             Console.WriteLine();
         }
 
-        static void WithMainElement(int N, double[,] A, double[] B, double[] X, double[] R, double [,] E)
+        public static void WithMainElement(int N, double[,] A, double[] B, double[] X, double[] R, double [,] E)
         {
             double det;
             det = MakeTriangleWithME(N, A, B, X, R, E);
@@ -158,7 +172,7 @@ namespace lab1_SLAU_MethodGauss
             }
         }
 
-        static void WithoutMainElement(int N, double[,] A, double[] B, double[] X, double[] R, double[,] E)
+        public static void WithoutMainElement(int N, double[,] A, double[] B, double[] X, double[] R, double[,] E)
         {
             double det;
             det = MakeTriangle(N, A, B, X, E);
@@ -194,7 +208,7 @@ namespace lab1_SLAU_MethodGauss
          * и матрица (А | Е) - для вычисления обратной матрицы;
          * также ведётся обратный ход;
          * вычисляется решение системы*/
-        static double MakeTriangle(int N, double[,] A, double[] B, double[] X, double[,] E)  //
+        public static double MakeTriangle(int N, double[,] A, double[] B, double[] X, double[,] E)  //буду тестить этот метод
         {
             double res, factor, s = 0, det = 1;
             int current_str = 0, sign_det = 1;
@@ -267,7 +281,7 @@ namespace lab1_SLAU_MethodGauss
             return det;       
         }
 
-        static void Inverse(int N, double[,] A, double[] X, double[,] E)
+        public static void Inverse(int N, double[,] A, double[] X, double[,] E) //буду тестить этот метод
         {
             double factor;
             int current_str = N - 1;
@@ -302,7 +316,7 @@ namespace lab1_SLAU_MethodGauss
             }
         }
 
-        static void Nevyazka(int N, double[] R, double[,] A, double[] B, double[] X)
+        public static void Nevyazka(int N, double[] R, double[,] A, double[] B, double[] X) //буду тестить этот метод
         {
             double eps = 0.000001;
             for (int i = 0; i < N; i++)
@@ -319,7 +333,7 @@ namespace lab1_SLAU_MethodGauss
             }
         }
 
-        static double MakeTriangleWithME(int N, double[,] A, double[] B, double[] X, double[] R, double[,] E)
+        public static double MakeTriangleWithME(int N, double[,] A, double[] B, double[] X, double[] R, double[,] E) //буду тестить этот метод
         {
             int i, j, current_str = 0, sign_det = 1, sign;
             double factor, det = 1, s = 0;
@@ -365,7 +379,7 @@ namespace lab1_SLAU_MethodGauss
             return det;
         }
 
-        static int MaxOfColumn(int N, double[,] A, double[] B, double[,] E, int istr, int jcol)
+        public static int MaxOfColumn(int N, double[,] A, double[] B, double[,] E, int istr, int jcol) //буду тестить этот метод
         {
             double max, res;
             int current_column = jcol, index = istr;

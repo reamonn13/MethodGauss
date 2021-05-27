@@ -1,7 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "lab1_SLAU_MethodGauss", "lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss.csproj", "{D3BB0388-38E2-427A-B884-D378342A5B0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTestGauss", "UnitTestGauss\UnitTestGauss.csproj", "{C1200580-82AE-475E-B99B-07F89A4A3E52}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D3BB0388-38E2-427A-B884-D378342A5B0C} = {D3BB0388-38E2-427A-B884-D378342A5B0C}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +20,10 @@ Global
 		{D3BB0388-38E2-427A-B884-D378342A5B0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D3BB0388-38E2-427A-B884-D378342A5B0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D3BB0388-38E2-427A-B884-D378342A5B0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1200580-82AE-475E-B99B-07F89A4A3E52}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1200580-82AE-475E-B99B-07F89A4A3E52}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1200580-82AE-475E-B99B-07F89A4A3E52}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1200580-82AE-475E-B99B-07F89A4A3E52}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

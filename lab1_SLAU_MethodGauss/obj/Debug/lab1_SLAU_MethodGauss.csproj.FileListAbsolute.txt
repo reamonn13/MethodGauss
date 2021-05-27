@@ -22,3 +22,7 @@ E:\Study\3 course\MathCuntor\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Deb
 D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe.config
 D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.exe
 D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.pdb
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.exe
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\bin\Debug\lab1_SLAU_MethodGauss.pdb
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.csproj.AssemblyReference.cache
+D:\Dlya kursovoj\lab1_SLAU_MethodGauss\lab1_SLAU_MethodGauss\obj\Debug\lab1_SLAU_MethodGauss.csproj.CoreCompileInputs.cache
