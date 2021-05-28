@@ -1,4 +1,7 @@
-﻿using System;
+﻿// This is a personal academic project. Dear PVS-Studio, please check it.
+// PVS-Studio Static Code Analyzer for C, C++ and C#: http://www.viva64.com
+
+using System;
 using System.Linq;
 using System.IO;
 
@@ -9,7 +12,7 @@ namespace lab1_SLAU_MethodGauss
         public static void Main(string[] args)
         {
             ConsoleKey key = Console.ReadKey().Key;
-            do{
+            //do{
                 
                 string path = @"D:\Dlya kursovoj\lab1_SLAU_MethodGauss\a4.dat";
                 string[] readfile = File.ReadAllLines(path);  //чтение матрицы А из файла
@@ -61,7 +64,7 @@ namespace lab1_SLAU_MethodGauss
                         {
                             WithMainElement(N, A, B, X, R, E);
                         }
-                        else if (num_var == 2)
+                        else /*if (num_var == 2)*/
                         {
                             WithoutMainElement(N, A, B, X, R, E);
                         }
@@ -75,7 +78,7 @@ namespace lab1_SLAU_MethodGauss
                 } while (num_var != 1 && num_var != 2);
 
 
-            } while (key != ConsoleKey.Escape);
+            //} while (key != ConsoleKey.Escape);
             return;
         }
 
@@ -259,10 +262,10 @@ namespace lab1_SLAU_MethodGauss
                         det *= A[i, j];  //считаем определитель, перемножив в нём элементы на главной диагонали
             det *= sign_det;  //домножаем определитель на знак, если строки в нём менялись местами - нашли значение определителя
             X[N - 1] = B[N - 1] / A[N - 1, N - 1];  //обратный ход метода Гаусса
-            for (int i = N - 2, j; i >= 0; i--)
+            for (int i = N - 2/*, j*/; i >= 0; i--)
             {
                 s = 0;
-                for (j = i + 1; j < N; j++)
+                for (int j = i + 1; j < N; j++)
                 {
                     s = s + A[i, j] * X[j];
                 }
@@ -300,7 +303,7 @@ namespace lab1_SLAU_MethodGauss
                             E[i, k] = E[i, k] / A[i, j];
                         }
 
-                        A[i, j] = A[i, j] / A[i, j];
+                        A[i, j] = /*A[i, j] / A[i, j];*/ 1;
                     }
                 }
             }
@@ -412,7 +415,7 @@ namespace lab1_SLAU_MethodGauss
                     return -1;
                 }
 
-                break;
+                //break;
             }
             
             return 1;
